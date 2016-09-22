@@ -6,11 +6,11 @@ buildscript {
   }
 
   dependencies {
-    classpath 'me.champeau.gradle:jbake-gradle-plugin:0.1'
+    classpath 'me.champeau.gradle:jbake-gradle-plugin:0.2'
   }
 }
 
-apply plugin: 'jbake'
+apply plugin: 'me.champeau.jbake'
 
 jbake {
    input = file('src/jbake')
